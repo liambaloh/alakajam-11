@@ -485,15 +485,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -664,15 +664,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -918,8 +918,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1139,15 +1139,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1318,15 +1318,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1721,6 +1721,93 @@ MonoBehaviour:
   _musicAudioSource: {fileID: 260369907}
   _ambiance1AudioSource: {fileID: 1164419423}
   _ambiance2AudioSource: {fileID: 1383313560}
+  files:
+  - {fileID: 4900000, guid: 4d12b0c86fd362247b0045f26b65f89c, type: 3}
+  - {fileID: 4900000, guid: f1ba95012c2d66544a7c698b096f92c2, type: 3}
+  - {fileID: 4900000, guid: d847b7c9a63c84544b01e109cbd38fb4, type: 3}
+  - {fileID: 4900000, guid: 5b41c22b5ffb33147839d76b9ca58947, type: 3}
+  - {fileID: 4900000, guid: 0ddbf9120d4cb2c48834cb509436e268, type: 3}
+  - {fileID: 4900000, guid: 18efd4fe9e6beef4a8e99c31cb9f66d7, type: 3}
+  - {fileID: 4900000, guid: 5acea161af933d644be8e2b3658521db, type: 3}
+  - {fileID: 4900000, guid: 462c5c3f57cab3d40a037e1294da9c6e, type: 3}
+  - {fileID: 4900000, guid: ebc7035b493e4a346bc1f1ecedf385ec, type: 3}
+  - {fileID: 4900000, guid: f590e84d5f334ee4b899e2dfdecf5404, type: 3}
+  - {fileID: 4900000, guid: f47dc855e0aa4934085386ef4fb24ae3, type: 3}
+  - {fileID: 4900000, guid: b0a27872bff66a64ea52eb3dc0868e92, type: 3}
+  - {fileID: 4900000, guid: 0e8ccf649537a7f46a670d2c5d18778b, type: 3}
+  - {fileID: 4900000, guid: 6cd1e725fd7515f4693c0a224bab21c8, type: 3}
+  - {fileID: 4900000, guid: b4f7eef87e1224743937f86e4f7f1a1c, type: 3}
+  - {fileID: 4900000, guid: a11bed0fd26252e46a56f80e6309d4f8, type: 3}
+  - {fileID: 4900000, guid: 9b53a8a00141e5241b7dc905d680b832, type: 3}
+  - {fileID: 4900000, guid: 453bfcabebea08848999d9c636e3b5ee, type: 3}
+  - {fileID: 4900000, guid: 78a564abdd8270943b5d6a2b2d210d4f, type: 3}
+  - {fileID: 4900000, guid: 0e844513c78b95645ac6209f8e7af099, type: 3}
+  - {fileID: 4900000, guid: 99209a2111fb5cc4fa05ffcb7d1d6002, type: 3}
+  - {fileID: 4900000, guid: 64e4d76d2f59a854c928db361be08421, type: 3}
+  - {fileID: 4900000, guid: 1fa9c4ff63fbec44dacde93e83ac04f9, type: 3}
+  - {fileID: 4900000, guid: 223e90075d6f1b9458f62761893613f7, type: 3}
+  - {fileID: 4900000, guid: 9bb6953a83feda64b88dc096f1f747bf, type: 3}
+  - {fileID: 4900000, guid: bf306e38cecdc0049b3978abe914ba23, type: 3}
+  - {fileID: 4900000, guid: e2ec638cdfba1ee4ebce62a5f45be5c2, type: 3}
+  - {fileID: 4900000, guid: 50d9ec74a59537447bfcbed2a5c2772f, type: 3}
+  - {fileID: 4900000, guid: ccfc6c094ee64224fb9e2cfbbdbaef12, type: 3}
+  - {fileID: 4900000, guid: deaae7fe4efc6a448b4bb7101cf4cabf, type: 3}
+  - {fileID: 4900000, guid: b5b11240f63562e45b0cb02cfe9d5ede, type: 3}
+  - {fileID: 4900000, guid: 448b3741e66fbfa4db0d8f5564821774, type: 3}
+  - {fileID: 4900000, guid: 156520fd587484e4a9355fab22464659, type: 3}
+  - {fileID: 4900000, guid: b0e37acdf7901fe4ea39d7eb1eca0f93, type: 3}
+  - {fileID: 4900000, guid: 6e4bf255164b1764bbb85690be06a5be, type: 3}
+  - {fileID: 4900000, guid: 65dd75e4b455e5742a5d783e48a5b165, type: 3}
+  - {fileID: 4900000, guid: 4baad1afaeca18a41aef2b825b6f0113, type: 3}
+  - {fileID: 4900000, guid: 32db9baffd781374489db26fd28b2959, type: 3}
+  - {fileID: 4900000, guid: 5ab023432968d374a9e00d7c0bd0ee5b, type: 3}
+  - {fileID: 4900000, guid: 153dbb698362a5e41b33b9c7af8d29bd, type: 3}
+  - {fileID: 4900000, guid: 5cb9673214316fb46b76d9c477971836, type: 3}
+  - {fileID: 4900000, guid: 19760acc235476540868ae2148b3fd1b, type: 3}
+  - {fileID: 4900000, guid: a488d2903c6d1f341a57d553262bf09e, type: 3}
+  - {fileID: 4900000, guid: ce64f68fa66683d4999c3c44a7bd3df1, type: 3}
+  - {fileID: 4900000, guid: e6fbae29b7eb0f3489fa5a1bc505f653, type: 3}
+  - {fileID: 4900000, guid: 97bbdb1d1c49ace4bafeb3bad132fb9d, type: 3}
+  - {fileID: 4900000, guid: 66cc2204ccc5bd24a928e081bcc8d5cf, type: 3}
+  - {fileID: 4900000, guid: 4f06201ea2e94dc4982f6690633fbf09, type: 3}
+  songs:
+  - songTitle: music.mp3
+    song: {fileID: 8300000, guid: bc981f22a0dfe744e94c2fb5e9119f8b, type: 3}
+  images:
+  - imgTitle: background.png
+    img: {fileID: 21300000, guid: 3fbec7209ee3cee4583dee3f38878caa, type: 3}
+  - imgTitle: bishop.png
+    img: {fileID: 21300000, guid: 452f9cf0ed2caa047b118f70c76c804e, type: 3}
+  - imgTitle: decay_2.png
+    img: {fileID: 21300000, guid: e702a63861ddf0540a86c91dbe9c449d, type: 3}
+  - imgTitle: decay_3.png
+    img: {fileID: 21300000, guid: 14cf771fe2c454b478f255319124aca9, type: 3}
+  - imgTitle: done.png
+    img: {fileID: 21300000, guid: f50c9ce18077eb6448ad83d6b46d60d5, type: 3}
+  - imgTitle: fire_1.png
+    img: {fileID: 21300000, guid: fe8d65e46aab483488562119c2a13324, type: 3}
+  - imgTitle: fire_2.png
+    img: {fileID: 21300000, guid: f42d9413ffaea354eac3337f8feb1f50, type: 3}
+  - imgTitle: foundation_scafold.png
+    img: {fileID: 21300000, guid: 3959461d62eef6d4198a9d92a2316f9a, type: 3}
+  - imgTitle: foundations.png
+    img: {fileID: 21300000, guid: cde6e3ee7b2e4c04782b01d5efd6b87b, type: 3}
+  - imgTitle: ideas_person.png
+    img: {fileID: 21300000, guid: f81907d210887b84cbae898ef80bd4c0, type: 3}
+  - imgTitle: king.png
+    img: {fileID: 21300000, guid: 230d8fea817299f4d9a60868f21c08df, type: 3}
+  - imgTitle: outline.png
+    img: {fileID: 21300000, guid: 2b65e469906ba464faaac86e50b8eb41, type: 3}
+  - imgTitle: paris.png
+    img: {fileID: 21300000, guid: ff5bc45f2b8c39e418b7696f29c1c0d3, type: 3}
+  - imgTitle: partial.png
+    img: {fileID: 21300000, guid: c2b9a8bed234cae4eb71f18e12f13205, type: 3}
+  - imgTitle: partial_decay.png
+    img: {fileID: 21300000, guid: 28ae892ad9e31364193d23e98123b5ac, type: 3}
+  - imgTitle: partial_scafolds.png
+    img: {fileID: 21300000, guid: ace5b4bd7b641f2419cb00cd14669b58, type: 3}
+  - imgTitle: ruins.png
+    img: {fileID: 21300000, guid: 9cb6137a87323b44487e399cfd35c6f8, type: 3}
 --- !u!4 &1375760499
 Transform:
   m_ObjectHideFlags: 0

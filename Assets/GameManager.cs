@@ -28,12 +28,32 @@ namespace Assets
         [SerializeField] private AudioSource _ambiance1AudioSource;
         [SerializeField] private AudioSource _ambiance2AudioSource;
 
+        [SerializeField] private Dictionary<string, Sprite> _sprites;
         [SerializeField] private Dictionary<string, bool> _variables;
 
         private Dictionary<string, AudioClip> _songs;
         private List<SceneDescriptor> _scenes;
 
         private List<Sequence> _sequences;
+        
+
+        [System.Serializable]
+        public class SongDesc
+        {
+            public string songTitle;
+            public AudioClip song;
+        }
+
+        [System.Serializable]
+        public class ImgDesc
+        {
+            public string imgTitle;
+            public Sprite img;
+        }
+
+        public List<TextAsset> files;
+        public List<SongDesc> songs;
+        public List<ImgDesc> images;
 
         void Awake()
         {
@@ -47,18 +67,17 @@ namespace Assets
         {
             DOTween.Init();
             var info = new DirectoryInfo(Application.streamingAssetsPath + "/Scenes");
-            var fileInfo = info.GetFiles();
-            foreach (var file in fileInfo)
+            //var fileInfo = info.GetFiles();
+            foreach (var file in files)
             {
-                if (file.Extension.ToLower() == ".json")
-                {
-                    var reader = new StreamReader(Application.streamingAssetsPath + "/Scenes/" + file.Name);
-                    var json = reader.ReadToEnd();
-                    reader.Close();
-                    var sceneDescriptor = JsonUtility.FromJson<SceneDescriptor>(json);
-                    _scenes.Add(sceneDescriptor);
-
-                }
+                var sceneDescriptor = JsonUtility.FromJson<SceneDescriptor>(file.ToString());
+                _scenes.Add(sceneDescriptor);
+            }
+            
+            _sprites = new Dictionary<string, Sprite>();
+            foreach (var img in images)
+            {
+                _sprites.Add(img.imgTitle, img.img);
             }
 
             GetSongsFromFolder();
@@ -150,8 +169,7 @@ namespace Assets
         {
             if (imageDescriptor.image != "")
             {
-                var imagePath = Application.streamingAssetsPath + "/Backgrounds/" + imageDescriptor.image;
-                var sprite = LoadNewSprite(imagePath);
+                var sprite = _sprites[imageDescriptor.image];
                 image.sprite = sprite;
                 image.gameObject.SetActive(true);
                 if (imageDescriptor.aniamtes)
@@ -358,12 +376,9 @@ namespace Assets
 
         private void GetSongsFromFolder()
         {
-            var directoryInfo = new DirectoryInfo(Application.streamingAssetsPath + "/Music");
-            var songFiles = directoryInfo.GetFiles("*.*");
-
-            foreach (FileInfo songFile in songFiles)
+            foreach (var a in songs)
             {
-                ConvertFilesToAudioClip(songFile);
+                _songs.Add(a.songTitle, a.song);
             }
         }
 
