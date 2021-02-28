@@ -1,0 +1,103 @@
+{
+    "id": "construction begins",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "foundations.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "ideas_person.png",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 200,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": true
+    },
+    "layer2": {
+        "image": "bishop.png",
+        "aniamtes": true,
+        "initialDelay": 1,
+        "fadeInTime": 1,
+        "sustainTime": 200,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "The architect chosen for this grand construction, an elderly bishop, Jean-Michel, tours the construction site as the foundation is laid. Wagons of timber, rough stone and marble are being drawn to the site by a never-ending wagon train. An army of craftspeople are sawing, cutting and chiselling the stone and wood into shape, and laying them into place.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "ideas person dies",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

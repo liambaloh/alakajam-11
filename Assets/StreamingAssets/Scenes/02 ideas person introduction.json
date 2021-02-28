@@ -1,0 +1,103 @@
+{
+    "id": "ideas person introduction",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "paris.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "ideas_person.png",
+        "aniamtes": true,
+        "initialDelay": 1,
+        "fadeInTime": 1,
+        "sustainTime": 200,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "Madame Jacqui de Belvedere, a well positioned noblewoman, was eager to leave her mark in history by spearheading the construction of this landmark for the ages. While she didn’t have the engineering knowledge to design the building itself, she had the presence and connections at court to ensure construction was prioritised.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "corner stone placed",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

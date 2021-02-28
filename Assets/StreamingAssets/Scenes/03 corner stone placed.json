@@ -1,0 +1,103 @@
+{
+    "id": "corner stone placed",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "paris.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "ideas_person.png",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 200,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": true
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "The celebration for the laying of the building’s cornerstone was moderately attended. The residents of this part of the city have become weary of grand construction, as it often came at the cost of entire sections of the city being torn down to make room, a cost they had to pay. The noble families would likewise never attend such a celebration, they’d already done their part at the grand ball the night prior.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "construction begins",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

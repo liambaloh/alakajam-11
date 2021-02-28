@@ -1,0 +1,103 @@
+{
+    "id": "sensibilities change",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "outline.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "“It’s an outrage!” a newspaper decries. An ink-pressed line-illustration of the aged, ruinous building is right there, on the front page. Following the release of a novel which prominently featured this building in its former glory, everyone in Paris could agree that something had to be done about the hideous eyesore that’s been soiling their city for a century or more. But none could agree whether to restore it, or tear it down altogether, maybe replace it with a multi-storey stagecoach garage or something, anything, really.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "building restored 1",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": "main",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "paris.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "The church bells ring, announcing the year 1100 in Paris. A century of prosperity and growth has led the city to become one of Europe’s major centres of culture and trade. There are whispers going around that a monument to Paris’ prosperity is set to be built in the heart of the city.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "ideas person introduction",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

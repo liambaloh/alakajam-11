@@ -1,0 +1,103 @@
+{
+    "id": "building maintained and used",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "done.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "The celebrations end, life returns to normality – common for the common, noble for the noble. The centrepiece becomes part of the everyday landscape for city folk in the area, but remains awe inspiring for visitors. A sense of pride for the building develops in the city, with residents all too keen to write about the glorious building they get to enjoy every day.",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "needs change - library",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": ["library"], "unset": []}
+        },
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "needs change - seminary",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": ["seminary"], "unset": []}
+        },
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "needs change - gallery",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": ["gallery"], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": "fire",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "done.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "fire_1.png",
+        "aniamtes": true,
+        "initialDelay": 2,
+        "fadeInTime": 1,
+        "sustainTime": 1,
+        "fadeOutTime": 1,
+        "repeatDelay": 1,
+        "loop": true
+    },
+    "layer2": {
+        "image": "fire_2.png",
+        "aniamtes": true,
+        "initialDelay": 4,
+        "fadeInTime": 1,
+        "sustainTime": 1,
+        "fadeOutTime": 1,
+        "repeatDelay": 1,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "“Call the fire brigade!” a shout came from the building’s basement. Over the centuries a number of fires have happened, so the evacuation process was well understood and followed. This time, however, the fire spread, and spread rapidly. The atmosphere was perfect for the interior timber construction to function almost like kindling, spreading the fire throughout the interior, consuming the central section in a matter of an hour. By the time the fire brigade arrived with sufficient power to tackle the blaze, it had spread so far that extinguishing it lasted well into the night. ",
+    "interactions":[
+        {
+            "text": "Continue",
+            "exit_scenes": [
+                {
+                    "scene": "cost to repair too high",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "id": "construction resumes 1",
+    "music": {
+        "track": "music.mp3",
+        "volume": 100,
+        "looping": 1
+    },
+    "ambiance1": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "ambiance2": {
+        "track": "",
+        "volume": 100,
+        "looping": 0
+    },
+    "background": {
+        "image": "foundations.png",
+        "aniamtes": false,
+        "initialDelay": 0,
+        "fadeInTime": 0,
+        "sustainTime": 0,
+        "fadeOutTime": 0,
+        "repeatDelay": 0,
+        "loop": false
+    },
+    "layer1": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 0,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer2": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 3,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "layer3": {
+        "image": "",
+        "aniamtes": true,
+        "initialDelay": 6,
+        "fadeInTime": 1,
+        "sustainTime": 2,
+        "fadeOutTime": 1,
+        "repeatDelay": 5,
+        "loop": true
+    },
+    "variables_set": [],
+    "variables_unset": [],
+    "text": "Sometimes it’s necessary for time and people to change, for obvious decisions to finally be made. It’s been 30 years since the foundation was done and the area’s been left empty throughout. While the palace has entertained countless proposals for the site, they’ve always found some convenient reason to say no, even if the real reason was always a lack of funds. Times have been rough in Paris for the last few decades, but an upswing in prosperity has resulted in an architect’s proposal for the site receiving a “yes”. They proposed… ",
+    "interactions":[
+        {
+            "text": "...a glorious cathedral.",
+            "exit_scenes": [
+                {
+                    "scene": "construction phase 1",
+                    "probability_weight": 1,
+                    "variables_set": ["cathedral"]
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "...a brilliant palace.",
+            "exit_scenes": [
+                {
+                    "scene": "construction phase 1",
+                    "probability_weight": 1,
+                    "variables_set": ["palace"]
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        },
+        {
+            "text": "",
+            "exit_scenes": [
+                {
+                    "scene": "",
+                    "probability_weight": 1
+                }
+            ],
+            "requires_variables": {"set": [], "unset": []}
+        }
+    ]
+}
